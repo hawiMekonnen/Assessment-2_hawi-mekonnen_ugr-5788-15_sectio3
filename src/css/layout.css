@@ -1,0 +1,39 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+div.main{
+  display: flex;
+  flex-direction: row;
+  margin-left: 300px;
+  width: 750px;
+}
+div.article_sidebar{
+  display: flex;
+  flex-direction: row;
+
+}
+article.index{
+  display: grid;
+  grid-template-columns: 300px 300px;
+}
+aside.sidebar{
+  width: 300px;
+}
+section.section-2{
+  display: flex;
+  flex-direction: row;
+}
+div.img-1{
+  display: flex;
+  flex-direction: row;
+}
+div.img-2{
+  display: flex;
+  flex-direction: row;
+}
+footer{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
